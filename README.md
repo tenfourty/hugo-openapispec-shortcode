@@ -3,7 +3,7 @@
 
 This is a [Hugo Shortcode](https://gohugo.io/extras/shortcodes/) to embed the [Open API Spec](https://openapis.org) (formerly known as Swagger Spec) in a page.
 
-You can see an example [here](https://www.tenfourty.com/hugo-swagger-example/) and the source for the example [here](https://github.com/tenfourty/tenfourty.com/blob/master/content/hugo-OAI-swagger-example.md).
+You can see an example [here](https://www.tenfourty.com/hugo-OAI-swagger-example/) and the source for the example [here](https://github.com/tenfourty/tenfourty.com/blob/master/content/hugo-OAI-swagger-example.md).
 
 # Installation
 ==============
