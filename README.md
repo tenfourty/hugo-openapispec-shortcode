@@ -20,10 +20,21 @@ This repository has the following files that need to be copied into your Hugo si
 To embed the API documentation below you just need to include the following shortcode:
 
 ```go
-{{</* swagger url="http://petstore.swagger.io/v2/swagger.json" api_key="special-key" */>}}
+{{</* oai-spec url="http://petstore.swagger.io/v2/swagger.json" api_key="special-key" */>}}
 ```
 
 There are just two options:
 
 * **url (required)** - the url of the Open API Spec
 * **api_key (optional)** - the API Key you want embedded in your document
+
+# Known Issues
+==============
+
+Currently known issues:
+
+**Live Reload currently fails** when running locally. I'd recommend using the following command line options for Hugo which disables live reload and manually reload your page to see changes:
+
+```bash
+hugo server --watch --disableLiveReload
+```
