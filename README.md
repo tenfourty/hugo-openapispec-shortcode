@@ -20,7 +20,7 @@ This repository has the following files that need to be copied into your Hugo si
 To embed the API documentation below you just need to include the following shortcode:
 
 ```go
-{{</* oai-spec url="http://petstore.swagger.io/v2/swagger.json" api_key="special-key" */>}}
+{{< oai-spec url="http://petstore.swagger.io/v2/swagger.json" api_key="special-key" >}}
 ```
 
 There are just two options:
